@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">PiaShop</string>
+
+    <!--Home screen bottom tab labels-->
+    <string name="shop">Shop</string>
+    <string name="merchant">Merchant</string>
+    <string name="user">User</string>
+    <string name="sdk_ui">SDK UI</string>
+
+    <!--Checkout screen labels-->
+    <string name="gift_card">Gift Card</string>
+    <string name="amount_with_currency">%1$s %2$s</string>
+    <string name="select_currency">Select currency:</string>
+    <string name="item_quantity">Qty: </string>
+    <string name="pay_button_label">Pay %1$s %2$s</string>
+    <string name="payment_processing">Payment processing…</string>
+    <string name="pay_with_card">Pay with card</string>
+    <string name="payment_cancelled">Payment Cancelled</string>
+    <string name="payment_failed">Payment Failed</string>
+    <string name="payment_process_error">There was an error.\nPlease try again later.</string>
+    <string name="payment_rollback_error">There was an error when rolling back the transaction.</string>
+    <string name="payment_commit_error">There was an error when committing the transaction.</string>
+    <string name="payment_success">Payment done successfully</string>
+    <string name="thank_you_for_shopping">Thank you for shopping</string>
+    <string name="tokenized_card">Tokenized Card</string>
+    <string name="wallet">Wallet</string>
+    <string name="finnish_bank">Finnish Bank</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="security_code">Security Code</string>
+
+    <!-- SDK UI Customisation -->
+    <string name="sdk.ui.section.header.color">Color Customisation</string>
+    <string name="color.background">Background Color</string>
+    <string name="color.border">Border Color</string>
+    <string name="color.text">Text Color</string>
+    <string name="color.placeholder">Placeholder Color</string>
+    <string name="color.label">Label Color</string>
+    <string name="color.cursor">Cursor Color</string>
+    <string name="color.error.text">Error Text Color</string>
+    <string name="color.divider">Divider Color</string>
+    <string name="sdk.ui.section.header.dimension">Dimension Customisation</string>
+    <string name="dimension.border.width">Border Width</string>
+    <string name="dimension.divider.width">Divider Width</string>
+    <string name="dimension.error.text.size">Error Text Size</string>
+    <string name="sdk.ui.section.header.shape">Shape Customisation</string>
+    <string name="shape.rounded.corner">Rounded Corner</string>
+    <string name="sdk.ui.section.header.typography">Typography Customisation</string>
+    <string name="sdk.ui.section.header.nets.theme">Nets Default User Interface</string>
+    <string name="nets.theme.use.nets.style">Use Nets Style</string>
+    <string name="nets.theme.nets.dark.mode">Nets Dark Mode</string>
+
+    <!--Merchant settings-->
+    <string name="test_environment">Test Environment</string>
+    <string name="production_environment">Production Environment</string>
+    <string name="test_merchant_id">Test Merchant ID</string>
+    <string name="production_merchant_id">Production Merchant ID</string>
+    <string name="merchant_settings">Merchant Settings</string>
+    <string name="merchant_backend_base_url">Merchant Backend Base URL</string>
+    <string name="netaxept_merchant_id">Netaxept Merchant ID</string>
+
+    <!--User settings-->
+    <string name="register_new_card">Register New Card</string>
+    <string name="register_s_business_card">Register S-Business Card</string>
+    <string name="user_settings_title">Settings</string>
+    <string name="use_test_environment">Use Test Environment</string>
+    <string name="use_system_authentication">Use System Authentication</string>
+    <string name="use_skip_confirmation">Use Skip Confirmation</string>
+    <string name="disable_card_scanner">Disable Card Scanner</string>
+    <string name="exclude_dankort_and_mastercard">Exclude Dankort and Mastercard</string>
+    <string name="set_dark_theme">Set Dark Theme</string>
+    <string name="disable_co_branded_dankort">Disable Co-Branded Dankort</string>
+    <string name="application_version">%1$s (%2$s.%3$s)</string>
+    <string name="language_system">System</string>
+    <string name="language_english">English</string>
+    <string name="language_finnish">Finnish</string>
+    <string name="language_danish">Danish</string>
+    <string name="language_french">French</string>
+
+</resources>

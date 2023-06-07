@@ -1,0 +1,24 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "PiaShop"
+include ':app'
+include ':piasdk'
+project(':piasdk').projectDir = new File('piasdk/pia')
+include ':networking-library'
+project(':networking-library').projectDir = new File('piasdk/networking-android/lib')
+include ':card-scanner'
+project(':card-scanner').projectDir = new File('piasdk/paycards-android/sdk')
